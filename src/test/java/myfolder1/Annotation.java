@@ -26,7 +26,7 @@ public class Annotation {
 
     @Test
     public void test1(){
-        System.out.println("test1");
+        System.out.println("now print test1 from Test");
         Assert.assertEquals("1", "1");
     }
 
@@ -39,6 +39,6 @@ public class Annotation {
         Assert.assertTrue(expected.equals(expected));
         Assert.assertNotNull(actual);
         Assert.assertSame(expected, "expected");
-        while(true);
+       while(true);
     }
 }

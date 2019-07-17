@@ -12,11 +12,13 @@
         1) You can write your tests for any web site or for your project.
         2) You can use dataProvider to generate login information.*/
 
-/*
 //import edu.dmytroqa.testng.Calculator;
 //import edu.dmytroqa.testng.Listener;
 //import edu.dmytroqa.testng.Operation;
 
+import mylisteners.Calculator;
+import mylisteners.Listener;
+import mylisteners.Operation;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -61,4 +63,3 @@ public class Tester {
         Assert.assertEquals(Double.compare(result, 5), 0);
     }
 }
-*/
